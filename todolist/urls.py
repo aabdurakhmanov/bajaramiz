@@ -1,8 +1,12 @@
 from django.urls import path
-from . import views
+from .views import *
 urlpatterns = [
-    path('', views.index, name="index"),
-    path('update_task/<str:pk>/', views.updateTask, name="update_task"),
-    path('delete/<str:pk>/', views.deleteTask, name="delete"),
+    path('', index, name="index"),
+    path('login/', CustomLoginView.as_view(), name='login'),
+    path('logout/', LogoutView.as_view(next_page='logout'), name='logout'),
+    path('register/', RegisterPage.as_view(), name='register'),
+    path('update_task/', updateTask, name='update_task'),
+    path('update_task/<str:pk>/', updateTask, name="update_task"),
+    path('delete/<str:pk>/', deleteTask, name="delete"),
 
 ]
