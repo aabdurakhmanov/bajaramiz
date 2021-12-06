@@ -8,7 +8,6 @@ from django.contrib.auth.views import LoginView, LogoutView
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login
 
-
 from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView, FormView
@@ -22,12 +21,13 @@ class CustomLoginView(LoginView):
     def get_success_url(self):
         return reverse_lazy('index')
 
+
 class RegisterPage(FormView):
     template_name = 'todolist/register.html'
     form_class = UserCreationForm
     redirect_authenticated_user = True
     success_url = reverse_lazy('index')
-    
+
     def form_valid(self, form):
         user = form.save()
         if user is not None:
@@ -38,7 +38,6 @@ class RegisterPage(FormView):
         if self.request.user.is_authenticated:
             return redirect('index')
         return super(RegisterPage, self).get(*args, **kwargs)
-
 
 
 class TaskList(LoginRequiredMixin, ListView):
@@ -66,6 +65,7 @@ class TaskDetail(LoginRequiredMixin, DetailView):
     context_object_name = 'index'
     template_name = 'todolist/index.html'
 
+
 class TaskCreate(LoginRequiredMixin, CreateView):
     model = Task
     fields = ['title', 'description', 'complete']
@@ -91,6 +91,7 @@ def index(request):
     }
     return render(request, 'todolist/index.html', context)
 
+
 def updateTask(request, pk):
     task = Task.objects.get(id=pk)
     form = TaskForm(instance=task)
@@ -103,6 +104,7 @@ def updateTask(request, pk):
 
     context = {'form': form}
     return render(request, 'todolist/update_task.html', context)
+
 
 def deleteTask(request, pk):
     item = Task.objects.get(id=pk)

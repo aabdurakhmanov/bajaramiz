@@ -5,8 +5,8 @@ urlpatterns = [
     path('login/', CustomLoginView.as_view(), name='login'),
     path('logout/', LogoutView.as_view(next_page='logout'), name='logout'),
     path('register/', RegisterPage.as_view(), name='register'),
-    path('update_task/', updateTask, name='update_task'),
-    path('update_task/<str:pk>/', updateTask, name="update_task"),
+    path('update_task/', TaskCreate, name='update_task'),
+    path('update_task/<str:pk>/', TaskCreate, name="update_task"),
     path('delete/<str:pk>/', deleteTask, name="delete"),
 
 ]
