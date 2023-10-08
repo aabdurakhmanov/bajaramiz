@@ -55,6 +55,12 @@ Make sure you have the following software installed on your system:
   ```shell
   python manage.py runserver
   ```
+##Views
+<img src="Todo list app.jpg">
+##
+Todo list app with User Registration, Login, Search and full Create Read Update and Delete functionality.
+
+
 ###
 License
 
