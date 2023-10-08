@@ -1,4 +1,3 @@
-<h1><i>Django to do list with user authentication</i></h1>.
 # Bajaramiz
 
 Welcome to the Bajaramiz app!
@@ -55,6 +54,9 @@ Make sure you have the following software installed on your system:
 4. Run app
   ```shell
   python manage.py runserver
-Todo list app with User Registration, Login, Search and full Create Read Update and Delete functionality.
+  ```
+###
+License
 
-<img src="Todo list app.jpg">
+MIT License.
+
