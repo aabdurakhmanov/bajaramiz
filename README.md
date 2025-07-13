@@ -130,20 +130,3 @@ Qo‘shimcha ma’lumot uchun `LICENSE` faylini qarang.
 See the [LICENSE](./LICENSE) file for more information.
 
 ---
-
-## 🌿 GitHub Kalit So'zlar / Topics
-
-```
-django
-bajaramiz
-todolist
-vazifa-yordamchi
-task-manager
-productivity
-python
-open-source
-```
-
----
-
-> Tarjimasi, logotip, deploy qilish, docker file yoki SEO optimizatsiyasi kerak bo'lsa, bemalol so'rang!
