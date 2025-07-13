@@ -1,7 +1,7 @@
 # ✅ Bajaramiz – Sizning Shaxsiy Vazifa Yordamchingiz
 
-Welcome to **Bajaramiz**, your ultimate assistant for organizing and completing tasks efficiently.
 **Bajaramiz** ilovasiga xush kelibsiz! Bu sizning vazifalaringizni samarali tashkil etish va bajarishda yaqin yordamchingiz bo'ladi.
+Welcome to **Bajaramiz**, your ultimate assistant for organizing and completing tasks efficiently.
 
 [![GitHub Repo](https://img.shields.io/badge/GitHub-aabdurakhmanov-blue?style=flat&logo=github)](https://github.com/aabdurakhmanov)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat)](#license)
@@ -9,7 +9,7 @@ Welcome to **Bajaramiz**, your ultimate assistant for organizing and completing 
 
 ---
 
-## 📋 Jadval / Table of Contents
+## 📋 Jadval | Table of Contents
 
 * [🚀 Xususiyatlar / Features](#-xususiyatlar--features)
 * [🎥 Demo](#-demo)
@@ -22,7 +22,7 @@ Welcome to **Bajaramiz**, your ultimate assistant for organizing and completing 
 
 ---
 
-## 🚀 Xususiyatlar / Features
+## 🚀 Xususiyatlar | Features
 
 * ✍️ **Vazifa Yaratish / Create Tasks**
 * 📂 **Tashkillashtirish / Organize by Projects or Tags**
@@ -34,7 +34,7 @@ Welcome to **Bajaramiz**, your ultimate assistant for organizing and completing 
 
 ---
 
-## 🎥 Demo
+## 🎥 Namoyish | Demo
 
 <img src="Todo list app.jpg" alt="Todo List App Screenshot" width="700"/>
 
@@ -42,17 +42,17 @@ Welcome to **Bajaramiz**, your ultimate assistant for organizing and completing 
 
 ---
 
-## ⚙️ Boshlash / Getting Started
+## ⚙️ Boshlash | Getting Started
 
 **Bajaramiz** ilovasini o‘zingizning kompyuteringizda ishga tushirish uchun quyidagi amallarni bajaring:
 
-### 🧰 Talablar / Prerequisites
+### 🧰 Talablar | Prerequisites
 
 * Python 3.8+
 * Django 3.2.9+
 * `pip` paket o‘rnatgichi
 
-### 📦 O‘rnatish / Installation
+### 📦 O‘rnatish | Installation
 
 1. Repositoriyani klon qiling / Clone the repository:
 
