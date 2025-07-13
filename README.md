@@ -1,66 +1,149 @@
-# Bajaramiz
+# ✅ Bajaramiz – Sizning Shaxsiy Vazifa Yordamchingiz
 
-Welcome to the Bajaramiz app!
+Welcome to **Bajaramiz**, your ultimate assistant for organizing and completing tasks efficiently.
+**Bajaramiz** ilovasiga xush kelibsiz! Bu sizning vazifalaringizni samarali tashkil etish va bajarishda yaqin yordamchingiz bo'ladi.
 
-This this app will become your close assistant in completing your assignments.
+[![GitHub Repo](https://img.shields.io/badge/GitHub-aabdurakhmanov-blue?style=flat&logo=github)](https://github.com/aabdurakhmanov)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat)](#license)
+[![Uzbek TTS](https://img.shields.io/badge/Language-Uzbek-blueviolet?style=flat)](#features)
 
-## Table of Contents
+---
 
-- [Features](#features)
-- [Demo](#demo)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Testing](#testing)
-- [Documentation](#documentation)
-- [License](#license)
+## 📋 Jadval / Table of Contents
 
-## Features
+* [🚀 Xususiyatlar / Features](#-xususiyatlar--features)
+* [🎥 Demo](#-demo)
+* [⚙️ Boshlash / Getting Started](#-boshlash--getting-started)
+* [📌 Foydalanish / Usage](#-foydalanish--usage)
+* [🧪 Testlash / Testing](#-testlash--testing)
+* [📚 Hujjatlar / Documentation](#-hujjatlar--documentation)
+* [🤝 Hissa Qo'shish / Contributing](#-hissa-qoshish--contributing)
+* [📜 Litsenziya / License](#-litsenziya--license)
 
-- **Create Tasks**: Easily add tasks with titles and descriptions.
-- **Organize Tasks**: Categorize tasks into projects or labels.
-- **Set Due Dates**: Assign due dates to tasks to prioritize them.
-- **Mark as Completed**: Keep track of completed tasks.
-- **Search and Filter**: Find tasks quickly with search and filter options.
-- **User Authentication**: Securely sign up and log in to your account.
-- **Responsive Design**: Use the app on desktop, tablet, or mobile devices.
+---
 
-## Getting Started
+## 🚀 Xususiyatlar / Features
 
-Follow these steps to get the Bajaramiz app up and running on your local machine.
+* ✍️ **Vazifa Yaratish / Create Tasks**
+* 📂 **Tashkillashtirish / Organize by Projects or Tags**
+* ⏰ **Muddat Belgilash / Set Deadlines**
+* ✅ **Tugallanganini Belgilash / Mark as Completed**
+* 🔍 **Qidirish va Filtrlash / Search & Filter**
+* 🔐 **Foydalanuvchi Ro‘yxatdan o‘tishi / User Authentication**
+* 📱 **Moslashuvchan Dizayn / Responsive UI**
 
-### Prerequisites
+---
 
-Make sure you have the following software installed on your system:
+## 🎥 Demo
 
-- [Django](https://www.djangoproject.com/) - Version 3.2.9 or higher
-### Installation
+<img src="Todo list app.jpg" alt="Todo List App Screenshot" width="700"/>
 
-1. Clone the repository:
+> Tinch, toza va samarali UI. A clean and efficient user interface.
 
-   ```shell
-   git clone https://github.com/aabdurakhmanov/todolist.git
+---
 
-2. Navigate to the project directory:
-  ```shell
-   cd Bajaramiz
-  ```
+## ⚙️ Boshlash / Getting Started
 
-3. Install the required dependencies:
-  ```shell
-  pip install -r requirements.txt
-  ```
+**Bajaramiz** ilovasini o‘zingizning kompyuteringizda ishga tushirish uchun quyidagi amallarni bajaring:
 
-4. Run app
-  ```shell
-  python manage.py runserver
-  ```
-<img src="Todo list app.jpg">
-Todo list app with User Registration, Login, Search and full Create Read Update and Delete functionality.
+### 🧰 Talablar / Prerequisites
 
+* Python 3.8+
+* Django 3.2.9+
+* `pip` paket o‘rnatgichi
 
-###
-License
+### 📦 O‘rnatish / Installation
 
-MIT License.
+1. Repositoriyani klon qiling / Clone the repository:
 
+```bash
+git clone https://github.com/aabdurakhmanov/todolist.git
+```
+
+2. Loyihaga o‘ting / Navigate to the project:
+
+```bash
+cd todolist
+```
+
+3. Talab qilingan kutubxonalarni o‘rnating / Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Serverni ishga tushuring / Run the server:
+
+```bash
+python manage.py runserver
+```
+
+Brauzerda oching / Open in browser: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+---
+
+## 📌 Foydalanish / Usage
+
+* Ro‘yxatdan o‘ting / Register an account
+* Vazifalarni yarating, tahrirlang, o‘chiring / Create, edit, delete tasks
+* Qidiruv va filtrlardan foydalaning / Use search and filters
+
+---
+
+## 🧪 Testlash / Testing
+
+> Yaqinda testlar qo'shiladi. Coming soon: Unit and functional tests.
+
+---
+
+## 📚 Hujjatlar / Documentation
+
+* `models.py` – Ma’lumotlar bazasi modeli / Database schema
+* `views.py` – Logika va sahifalarni boshqarish / Logic and rendering
+* `templates/` – HTML sahifalar / Frontend templates
+* `forms.py` – Formalar va validatsiya / Forms and validation
+
+To‘liq hujjatlar `docs/` papkasida kutilmoqda. Full documentation coming soon.
+
+---
+
+## 🤝 Hissa Qo'shish / Contributing
+
+1. Reponi fork qiling / Fork the repo
+2. Yangi branch yarating / Create a new branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. O'zgarishlarni push qiling / Push your changes
+4. Pull request yuboring / Submit a PR
+
+---
+
+## 📜 Litsenziya / License
+
+Ushbu loyiha **MIT litsenziyasi** asosida tarqatiladi.
+This project is licensed under the **MIT License**.
+
+Qo‘shimcha ma’lumot uchun `LICENSE` faylini qarang.
+See the [LICENSE](./LICENSE) file for more information.
+
+---
+
+## 🌿 GitHub Kalit So'zlar / Topics
+
+```
+django
+bajaramiz
+todolist
+vazifa-yordamchi
+task-manager
+productivity
+python
+open-source
+```
+
+---
+
+> Tarjimasi, logotip, deploy qilish, docker file yoki SEO optimizatsiyasi kerak bo'lsa, bemalol so'rang!
